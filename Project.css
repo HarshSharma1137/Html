@@ -1,0 +1,280 @@
+body{
+  background-color: #151515;
+  
+}
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    background-color:#FFDB5C;
+    
+}
+#logo{
+    font-size: 25px;
+    color:white;
+    font-weight:850;
+    font-family:Comic Sans MS;
+    margin-left: 10px;
+}
+button{
+    background-color: wheat;
+    border-radius: 10px;
+}
+a{
+    margin-right: 200px;
+    font-family:Comic Sans MS;
+    text-decoration: none;
+    color:black;
+}
+#content{
+    display: flex;              /* flex box */
+    flex-direction:row;        /* flexbox direction*/
+    justify-content:center ;/*flex properties*/
+    /* flex-wrap: wrap;             flex properties */
+    justify-content: space-evenly;
+     
+}
+.contentBox1{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 0, 0, 0.5);
+    border: 3px solid #F7DCB9;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url("ppp1.jpeg");
+    background-size: contain;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid purple;
+    text-align: center;
+}
+.contentBox2{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 0, 0, 0.5);
+    border: 3px solid #F7DCB9;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url("ppp2.jpeg");
+    background-size: cover;   
+}
+.box2{
+    width: 200px;
+    height: 300px;
+    background-color: #A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid red;
+    text-align: center;
+}
+
+.contentBox3{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 0, 0, 0.5);
+    border: 3px solid #F7DCB9;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url("ppp3.jpeg");
+    background-size: cover; 
+}
+.box3{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid skyblue;
+    text-align: center;
+}
+.contentBox4{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 0, 0, 0.5);
+    border: 3px solid #F7DCB9;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url("ppp4.jpeg");
+    background-size: cover;    
+}
+.box4{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid  palevioletred;
+    text-align: center;
+}
+#Plate{
+    display: flex;              /* flex box */
+    flex-direction:row;        /* flexbox direction*/
+    justify-content:center ;/*flex properties*/
+    /* flex-wrap: wrap;             flex properties */
+    justify-content: space-evenly;
+    margin-top: 330px;
+    
+     
+}
+.fex1{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp5.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+.box1{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid purple;
+    text-align: center;
+}
+.fex2{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp6.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+.box2{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid purple;
+    text-align: center;
+}
+.fex3{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp7.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+.box3{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid purple;
+    text-align: center;
+}
+.fex4{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp10.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+.box4{
+    width: 200px;
+    height: 300px;
+    background-color:#A2CA71;
+    margin-top: 205px;
+    border-radius: 10px;
+    border: 5px solid purple;
+    text-align: center;
+}
+#Plate1{
+    display: flex;              /* flex box */
+    flex-direction:row;        /* flexbox direction*/
+    justify-content:center ;/*flex properties*/
+    /* flex-wrap: wrap;             flex properties */
+    justify-content: space-evenly;
+    margin-top: 330px;
+    text-align: center;
+}
+.fex1{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp14.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex2{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp16.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex3{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp12.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex4{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp8.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+#Plate2{
+    display: flex;              /* flex box */
+    flex-direction:row;        /* flexbox direction*/
+    justify-content:center ;/*flex properties*/
+    /* flex-wrap: wrap;             flex properties */
+    justify-content: space-evenly;
+    margin-top: 330px;
+    text-align: center;
+        
+}
+.fex1{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp13.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex2{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp12.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex3{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp14.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
+
+.fex4{
+    width: 200px;
+    height: 200px;
+    background-image: url("ppp8.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #F7DCB9 ;
+}
